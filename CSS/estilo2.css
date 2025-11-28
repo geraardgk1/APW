@@ -1,0 +1,96 @@
+#titulo {
+    color: #098a8e;
+}
+
+#subtitulo {
+    color: blue;
+}
+
+strong {
+    color: red;
+}
+
+a {
+    color: red;
+}
+
+em {
+    color: blue;
+}
+
+.especial {
+    color: orange;
+}
+
+caption {
+    color: blue;
+}
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    
+}
+
+thead .especial {
+    color: orange;
+}
+
+tbody .especial {
+    color: orange;
+}
+
+td {
+    color: green;
+}
+
+th {
+    color: red;
+}
+
+p {
+    color: black;
+}
+
+.destacado, span {
+    color: orange;
+}
+
+#especial, span {
+    color: violet;
+}
+
+.especial {
+    color: purple;
+}
+
+.td, strong {
+    color: orange;
+}
+
+.adicional span {
+    color: green;
+}
+
+#adicional p {
+    color: green;
+}
+
+tbody, em {
+    color: green;
+}
+
+#adicional, span {
+    color: green;
+}
+
+p em {
+    color: blue;
+}
+
+p strong {
+    color: red;
+}
+#hola{
+    color: rgb(41, 204, 41)
+}
