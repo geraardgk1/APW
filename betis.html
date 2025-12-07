@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Betis Balompié</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+    <input type="checkbox" id="toggle-menu">
+    <label for="toggle-menu" class="menu-btn">☰ Menú</label>
+
+    <aside class="sidebar">
+        <h2>Apartados</h2>
+        <ul>
+            <li><a href="#historia">Escudo</a></li>
+            <li><a href="#plantilla">Últimos partidos</a></li>
+            <li><a href="#titulos">Títulos</a></li>
+            <li><a href="#divisiones">Plantilla</a></li>
+            <li><a href="#formulario">Formulario</a></li>
+        </ul>
+    </aside>
+
+    
+    <main>
+
+        <header id="cabeceras">
+            <h1>Real Betis Balompié</h1>
+            <nav>
+                <a href="https://www.realbetisbalompie.es" target="_blank">Web Oficial</a>
+                <a href="#historia">Historia</a>
+            </nav>
+        </header>
+
+        <section id="historia">
+            <h2>Historia del Club</h2>
+            <p>El Real Betis Balompié, fundado en 1907 en Sevilla, es uno de los clubes históricos del fútbol español. Conocido por su afición apasionada, los béticos o verdiblancos
+                el equipo ha vivido grandes momentos en su campo el Benito Villamarin como su debut en la champions league en 2005 o la celebracion de su centenario en el año 2007 contra el AC Milan
+                tambien logro varios titulos aunque el mas importante es ganar La Liga en 1935 o su ultima copa del rey ganada en el año 2022 </p>
+            <img src="Betis.png" 
+                alt="Escudo del Betis" width="400" height="400">
+        </section>
+
+        <section id="plantilla">
+            <h2>Últimos partidos</h2>
+            <ul>
+                <li>Betis 3-5 Barcelona</li>
+                <li>Torrent 1-4 Betis</li>
+                <li>Sevilla 0-2 Betis</li>
+            </ul>
+        </section>
+
+        <section id="titulos">
+            <h2>Tabla de Títulos</h2>
+            <table>
+                <tr>
+                    <th>Competición</th>
+                    <th>Títulos</th>
+                </tr>
+                <tr>
+                    <td>Primera División</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Segunda División</td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td>Copa del Rey</td>
+                    <td>3</td>
+                </tr>
+            </table>
+        </section>
+
+        <div class="caja-info" id="divisiones">
+            <h3>Plantilla  25/26</h3>
+            <p>Imagen de la plantilla del Betis</p>
+             <img src="Plantilla.png" 
+                alt="plantilla" width="800" height="400">
+        </div>
+
+        <section id="formulario">
+            <h2>¿Eres el fan número 1 del betis?</h2>
+            <form>
+               
+                <label>Nombre:</label>
+                <input type="text" name="Nombre" required>
+               
+                <label>Apellidos:</label>
+                <input type="text" name="Apellidos" required>
+
+                <label>Jugador Favorito:</label>
+                <input type="text" name="Jugador" required>
+
+                <label>¿Porque eres el fan nº1 del betis?:</label>
+                <textarea name="mensaje"></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <section id="Sorpresa">
+            <h3>Sorpresa</h3>
+            <a href="https://www.youtube.com/watch?v=CyfwJXrUC8M" target="_blank">La cabra</a>
+        </section>
+    </main>
+</body>
+</html>
